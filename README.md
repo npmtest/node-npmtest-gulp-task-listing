@@ -1,6 +1,6 @@
 # npmtest-gulp-task-listing
 
-#### test coverage for  [gulp-task-listing (v1.0.1)](https://github.com/OverZealous/gulp-task-listing)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-task-listing.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-task-listing) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-task-listing.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-task-listing)
+#### basic test coverage for  [gulp-task-listing (v1.0.1)](https://github.com/OverZealous/gulp-task-listing)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-task-listing.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-task-listing) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-task-listing.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-task-listing)
 
 #### Adds the ability to provide a task listing for your gulpfile
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-task-listing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-task-listing/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-task-listing/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-task-listing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-task-listing/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-task-listing/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-task-listing/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
